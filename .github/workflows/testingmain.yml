@@ -39,6 +39,6 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: deploying on surge
-        run: surge ./build http://sweltering-brush.surge.sh/ --token ${{ secrets.CLASS_TOKEN}}
+        run: surge ./build testingclass3-exchange.surge.sh/ --token ${{ secrets.CLASS_TOKEN}}
           
           
