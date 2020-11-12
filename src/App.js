@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Chaild from './chaild';
 
+
 function App() {
   return (
     <div className="App">
@@ -21,6 +22,8 @@ function App() {
      <Chaild sirReviwe="do some creative" sirBestIdea="testing is there any mistake" />
      < hr/>
      <Chaild sirReviwe="do some creative" sirBestIdea="chal bhi ja yaar had hogi :(" />
+     < hr/>
+     <Chaild sirReviwe="dimag kharab hogya error solve nhi ho rah :(" sirBestIdea="had hogi h ak programer ghr main hona hi chahiya :(" />
     </div>
   );
 }
